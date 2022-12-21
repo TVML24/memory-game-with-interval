@@ -1,0 +1,41 @@
+header {
+    background: orange;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 40px;
+    line-height: 2.5;
+}
+
+main {
+    background: yellow;
+    height: 800px;
+}
+
+#flex-container {
+    background: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+
+.card {
+    background: green;
+    height: 40%;
+    width: 18%;
+}
+
+footer {
+    width: 100%;
+    background: crimson;
+}
+
+footer label {
+    font-size: 30px;
+    line-height: 2.5;
+}
